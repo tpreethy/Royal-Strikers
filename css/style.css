@@ -74,6 +74,9 @@ p {
     opacity:0.9;
 }
 
+.dropdown-menu>li>a {
+    font-size: 16px;
+}
 .img-circle {
     border-radius: 50%;
     margin-top: -76px;
@@ -204,5 +207,9 @@ textarea.form-control {
 #cont {
     width: 100%;
     margin: 0 auto;
+}
+
+.banner-img{
+  width:100%;
 }
 .   

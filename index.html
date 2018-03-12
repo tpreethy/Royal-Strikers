@@ -57,6 +57,13 @@
                     <li><a href = "#">Home</a></li>
                     <li><a href = "#about">About Us</a></li>
                     <li><a href = "#team">Team</a></li>
+                    <li class="dropdown"> 
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tournament<span class="caret"></span></a>
+                         <ul class="dropdown-menu">
+                            <li><a href="#npl">NPL</a></li>
+                            <li><a href="#mccl">MCCL</a></li>
+                         </ul>
+                    </li>
                     <li><a href = "#contact">Contact</a></li>
                 </ul>
             </div>
@@ -116,6 +123,23 @@
 
     </div>
 
+    <!--NPL -->
+
+        <div id="npl">
+            
+            <h1 class="text-center">To Know more about NPL schedules check below</h1>
+            <iframe src="https://cricclubs.com/npl" height="800px" width="1200px">
+            </iframe>
+        </div>
+
+       <!--MCCL-->
+        <div id="mccl">
+            
+            <h1 class="text-center">To Know more about MCCL schedules check below</h1>
+            <iframe src="https://cricclubs.com/MCCL" height="800px" width="1200px">
+            </iframe>
+        </div>
+
 <!--
     <form id="contactform" method="POST">
     <input type="text" name="name" placeholder="Your name">
@@ -171,17 +195,8 @@
             </div>
         </section>
     
-    
-    <!-- Scrolling Nav JavaScript -->
-    
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'tpreethy17' + '@' + 'gmail' + '.' + 'com');
-    </script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

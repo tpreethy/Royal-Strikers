@@ -83,7 +83,7 @@ p {
 /*Full Width Slider Formatting */
 /* Carousel base class */
 .carousel {
-    padding-top: 100px;
+    padding-top: 267px;
     height: 100%;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -184,3 +184,25 @@ textarea.form-control {
   color: #fff;
 
 }
+
+
+#npl{
+  margin-left:90px;
+}
+
+#mccl{
+  margin-left:90px;
+}
+
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+    margin-top:1px;
+    top:0px;
+
+}
+#cont {
+    width: 100%;
+    margin: 0 auto;
+}
+.   

@@ -93,6 +93,75 @@ p {
     
 }
 
+
+.navbar-default .navbar-toggle {
+    border-color: #e40b0b;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #333;
+    background-image: none;
+    border: 3px solid #17336b;
+    border-radius: 4px;
+}
+
+.collapse .navbar-collapse .navHeaderCollapse{
+  background-color:black;
+}
+
+
+@media (min-width: 1000px){
+.navbar-toggle {
+    display: none;
+}
+}
+
+
+
+
+
+
+@media (max-width: 1208px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
 /*Full Width Slider Formatting */
 /* Carousel base class */
 .carousel {

@@ -89,8 +89,36 @@ p {
 
 .img-circle {
     border-radius: 50%;
-    margin-top: -76px;
+    margin-top: -52px;
     
+}
+
+@media (min-width: 320px) {
+  .container h3 {
+    font-size: 15px;
+  }
+  .navbar-brand img {
+    height:80px;
+    width:80px;
+  }
+}
+@media (min-width: 768px) {
+  .container h3{
+    font-size: 20px;
+  }
+  .navbar-brand img{
+    height:100px;
+    width:100px;
+  } 
+}
+@media (min-width: 1200px) {
+  .container h3{
+    font-size: 25px;
+  }
+  .navbar-brand img{  
+    height:150px;
+    width:150px;
+  }
 }
 
 
@@ -167,6 +195,7 @@ p {
 .carousel {
     padding-top: 267px;
     height: 100%;
+    margin-right:-325px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -202,8 +231,9 @@ p {
   font-size:80px;
 }
 
-.about .text-left{
+.about{
   margin-left:35px;
+  margin-right:-296px;
 }
 
 
@@ -229,6 +259,7 @@ p {
   background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #5a5252 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #fff;    
+    margin-left:54px;
 }
 .contact-section{
   padding-top: 40px;

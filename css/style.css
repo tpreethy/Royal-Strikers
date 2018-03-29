@@ -150,7 +150,19 @@ p {
 }
 
 
+@media (max-width: 1208px) {
+  .img-circle {
+      margin-top:-20px;
+  }
+  .navbar-toggle{
+    margin-top:-32px;
+  }
+}
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: none; 
+    
+}
 
 
 
